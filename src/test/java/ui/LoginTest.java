@@ -9,8 +9,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginTest {
 
-	public static String browser ="Chrome";
-	
+	public static String browser ="Chrome"; // TODO to read from some CSV  file
+	public static WebDriver driver;
 	public static void main(String[] args) {
 		WebDriver driver = null;
 		WebDriverManager.chromedriver().setup();
