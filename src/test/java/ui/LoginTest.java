@@ -11,8 +11,8 @@ public class LoginTest {
 
 	public static String browser ="Chrome"; // TODO to read from some CSV  file
 	public static WebDriver driver;
+	
 	public static void main(String[] args) {
-		WebDriver driver = null;
 		WebDriverManager.chromedriver().setup();
 		if(browser.equals("Chrome")) {
 			driver = new ChromeDriver();
@@ -28,7 +28,7 @@ public class LoginTest {
 		driver.close();
 		}
 
-		
+
 		
 	}
 
