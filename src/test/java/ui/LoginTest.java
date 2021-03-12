@@ -11,7 +11,6 @@ public class LoginTest {
 
 	public static String browser ="Chrome"; // TODO to read from some CSV  file
 	public static WebDriver driver;
-	
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		if(browser.equals("Chrome")) {
